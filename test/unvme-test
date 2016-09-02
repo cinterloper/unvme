@@ -1,4 +1,5 @@
 #!/bin/sh
+source "$(dirname ${BASH_SOURCE[0]})"/common.sh
 
 [ $# -ne 1 ] && echo "Usage: $0 PCINAME" && exit 1
 
